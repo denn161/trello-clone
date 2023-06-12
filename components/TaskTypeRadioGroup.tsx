@@ -21,7 +21,7 @@ const TaskTypeRadioGroup = () => {
 								value={type.id}
 								key={type.id}
 						    className={({active,checked})=>{
-                  return cl(styles.radio,checked&&'bg-green-500',{
+                  return cl(styles.radio,checked&&type.bg,{
 										[styles.active]:active,
 										[styles.checked]:checked,
 									
