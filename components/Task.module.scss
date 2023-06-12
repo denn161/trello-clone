@@ -1,0 +1,14 @@
+.radio{
+@apply relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none bg-white;
+
+&.active{
+	@apply ring-2 ring-white ring-opacity-60 ring-offset-2 ring-offset-sky-300;
+}
+&.checked{
+ background-color:green;
+ opacity: .7; 
+ color: #fff; 
+
+}
+
+} 
